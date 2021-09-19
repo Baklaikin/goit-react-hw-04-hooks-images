@@ -12,4 +12,5 @@ export const ImageGallery = ({ images, largePicture }) => {
 
 ImageGallery.propTypes = {
   images: PropTypes.array.isRequired,
+  largePicture: PropTypes.func.isRequired,
 };

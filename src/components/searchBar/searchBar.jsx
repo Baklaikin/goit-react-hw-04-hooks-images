@@ -6,6 +6,7 @@ import {
   Input,
   Form,
 } from "components/searchBar/searchBar.styled";
+import PropTypes from "prop-types";
 
 export const SearchBar = ({ onSubmit }) => {
   const name = (event) => {
@@ -34,4 +35,8 @@ export const SearchBar = ({ onSubmit }) => {
       </Form>
     </Header>
   );
+};
+
+SearchBar.propTypes = {
+  onSubmit: PropTypes.func.isRequired,
 };

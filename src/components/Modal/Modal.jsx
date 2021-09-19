@@ -27,4 +27,5 @@ export const Modal = ({ picture, onClick }) => {
 
 Modal.propTypes = {
   picture: PropTypes.string.isRequired,
+  onClick: PropTypes.func.isRequired,
 };
